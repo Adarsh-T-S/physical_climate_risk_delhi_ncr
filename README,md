@@ -1,0 +1,16 @@
+# Physical Climate Risk Screening of Commercial and Industrial Assets in Delhi-NCR
+
+A reproducible Python and GIS-based framework for screening physical climate-risk exposure across publicly identifiable commercial and industrial assets in Delhi-NCR.
+
+# Research Question
+
+How can publicly available climate, geospatial and asset-location data be integrated to screen physical climate-risk exposure across selected commercial and industrial assets in DElhi-NCR?
+
+## Sub-questions
+
+1. Which selected assets are exposed to higher levels of extreme heat?
+2. Which selected assets are exposed to higher levels of extreme precipitation?
+3. How does physical climate risk vary across assets?
+4. Which assets emerge as relative hotspots?
+5. What potential operational and business implications could these hazards create?
+6. What adaptation could reduce identified exposure or vulnerability?
