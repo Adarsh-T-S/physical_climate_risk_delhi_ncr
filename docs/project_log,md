@@ -111,4 +111,30 @@ Hazard → Exposure/Assets → Vulnerability/Context → Risk Screening
 
 Verify access, metadata, formats, spatial reference systems and actual data availability for the selected primary and benchmark datasets before downloading and processing the datasets.
 
+## Day 5 - Methodological Principle
+
+Asset-data fitness is determined by analytical usefullness, not simply spatial accuracy or dataset size. A suitable dataset must allow the mapped locations to be identified as relevant physical assets and provide, or permit reliable verification/enrichment of, information needed for exposure, vulnerability and business-impact assessment.
+
+## Day 6 — Asset Dataset Investigation
+
+### Decision
+
+OCMMS (Online Consent Management & Monitoring System) is currently the preferred primary source for identifying commercial/industrial facilities in Delhi-NCR.
+
+### Reasoning
+
+The source was preferred because it provides stronger evidence of facility/company identity, physical address, industrial sector/type, category and regulatory registration than OpenStreetMap. Its government regulatory provenance also makes it more defensible for establishing that an industrial activity is associated with a documented facility. OSM will be retained as a complementary spatial source rather than discarded.
+
+### Important limitations
+
+The source does not reliably provide direct geographic coordinates for every facility, and one OCMMS record does not necessarily represent one unique physical asset. Multiple consent/application records may correspond to the same facility, while some commercial/industrial facilities may not be represented in the database.
+
+### Potential enrichment
+
+Missing geographic information may be supplemented using OpenStreetMap, geocoding and GIS-based spatial verification. Duplicate OCMMS records can be reconciled at the physical-site level using company name, address and location. Satellite imagery, OSM and other authoritative sources may be used to independently verify facility existence and location while preserving the provenance of each data field.
+
+### Decision status
+
+Provisional — subject to verification during data acquisition.
+
 

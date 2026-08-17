@@ -588,4 +588,40 @@ Candidate asset sources will be assessed using:
 
 No asset dataset will be selected solely because it contains a large number of facilities.
 
+## Asset Dataset Selection Criteria
+
+An asset will be included in the screening universe only when its location and commercial/industrial relevance can be established with reasonable confidence.
+
+### Minimum inclusion criteria
+
+- Located within the defined Delhi-NCR study boundary
+- Commercial or industrial relevance 
+- Identifiable physical facility/location
+- Latitude and longitude available or deliverable 
+- Source provenance can be documented 
+- Location can be independently checked where feasible
+- Facility is sufficiently current/relevant to the study period
+
+### Prefered asset attributes
+
+- Asset/facility name
+- Company/organisation
+- Industry/sector
+- Latitude
+- Longitude
+- Facility type 
+- Location/address
+- Source
+- Source date
+- Location verification status
+
+### Candidate Asset Sources
+
+| Candidate source | Asset type | Geographic coverage | Location accuracy | Business relevance | Currentness | Provenance | Reproducibility | Status |
+|---|---|---|---|---|---|---|---|---|
+| Candidate 1 | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | Candidate |
+| Candidate 2 | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | Candidate |
+| Candidate 3 | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | To evaluate | Candidate |
+
+
 
