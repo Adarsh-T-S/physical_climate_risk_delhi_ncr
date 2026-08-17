@@ -1,0 +1,114 @@
+# Project Development Log
+
+## Day 1 - Project Definition
+
+### Objective
+Defined the scope and conceptual framework for a physical climate-risk screening project for commercial and industrial assets in Delhi-NCR.
+
+### Key decisions
+- Geography: Delhi-NCR
+- Hazards: extreme heat and extreme precipitation
+- Exposure: publicly identifiable commercial/industrial assets
+- Framework: hazard + exposure + vulnerability > risk
+- Output: relative physical risk screening
+- Business layer: potential operational and financial relevance
+- Explicit limitation: not a financial-loss model
+
+### Technical preparation
+- Project repository structure created
+- Python environment initialised
+- Initial python/geospatial libraries identified
+- Data-source tracking system created
+
+### Reflection
+
+The main conceptual distinction I learnt today is that climate hazard alone does not equal climate risk. Risk requires considering the hazard together with what is exposed and how vulnerable that exposure is.
+
+I am treating this project as a screening framwork rather than a financial-loss model because publicly available data will not be sufficient to estimate asset-specific monetory losses with professional-level confidence.
+
+The puropse of the project is therefore to identify and compare relative physical climate-risk hotspots and then interpret their potential operational and financial reference.
+
+## Day 2 - Hazard and Data Architecture
+
+### Objective
+
+Define the physical climate hazards, indicators and data requirements before begining data acquisition.
+
+### Work completed
+
+- Defined extreme heat as the first climate hazard.
+- Defined extreme precipitation as the second climate hazard.
+- Distinguished climate hazard from physical climate risk.
+- Defined preliminary data requirements.
+- Established a dataset evidence hierarchy.
+- Established criteria for evaluating datasets.
+- Avoided premature dataset selection/download.
+
+### Key reasoning
+
+The project will focus on climate extremes rather than simple annual or average climate conditions because extreme events are more directly relevant to potential operational disruption.
+
+Data selection will follow the analytical question rather than determining the methodology based on whichever dataset is easiest to obtain.
+
+### Current framework
+
+Hazard > Exposure > Vulnerability > Risk
+
+The final project will also translate physical-risk findings into potential operational and financial relevance without claiming to estimate actual monetory losses.
+
+### Next step
+
+Evaluate and select authoritative datasets for extreme heat, extreme precipitation, the Delhi-NCR study booundary and publicly documented asset locations suitable for asset-level exposure screening.
+
+## Day 3 - Data Source Discovery and Evidence Audit
+
+### Objective
+
+Identify and evaluate authoritative candidate datasets required for hazard, boundary and asset-level exposure analysis.
+
+### Work completed
+
+- Established dataset evaluation criteria.
+- Investigated candidate sources for extreme heat.
+- Investigated candidate sources for extreme precipitation.
+- Began evaluation of the Delhi-NCR study boundary.
+- Defined requirements for publicly documented asset locations.
+- Created an initial candidate dataset evaluation framwork.
+
+### Key learning
+
+A climate-risk analysis requires more than identifying climate datasets. Each dataset must be evaluated for provenance, spatial and temporal characteristics, geographic suitability, reproducibility and fitness for the indended screening objective.
+
+### Current status
+
+Candidate datasets identified; final selection and aquisition will follow after comparing source quality and project requirements.
+
+## Day 4 — Dataset Evaluation and Primary-Source Selection
+
+### Completed
+
+- Established dataset-selection criteria for asset-level physical-risk screening.
+- Distinguished historical coverage from asset relevance.
+- Evaluated candidate extreme-heat datasets.
+- Selected ERA5-Land as the primary heat-hazard candidate.
+- Retained IMD gridded temperature as the observational benchmark.
+- Evaluated candidate extreme-precipitation datasets.
+- Selected NASA GPM IMERG V07B as the primary precipitation-hazard candidate.
+- Retained IMD gridded rainfall as the India-specific observational benchmark.
+- Defined the need to evaluate the official Delhi-NCR boundary separately.
+- Explicitly incorporated asset-location dataset selection into the project workflow.
+- Proposed a common modern analysis period rather than automatically using the maximum historical record.
+
+### Key methodological decision
+
+For this asset-level screening exercise, spatial suitability and relevance to the modern asset-screening period are prioritized over historical record length, provided that sufficient temporal coverage remains available to derive meaningful extreme-hazard indicators.
+
+### Current architecture
+
+Hazard → Exposure/Assets → Vulnerability/Context → Risk Screening
+
+### Next step
+
+Verify access, metadata, formats, spatial reference systems and actual data availability for the selected primary and benchmark datasets before downloading and processing the datasets.
+
+

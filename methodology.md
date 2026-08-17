@@ -1,6 +1,6 @@
 # Methodology
 
-## Conceptual Risk Framework
+## 1 Conceptual Risk Framework
 
 This project follows the conceptual structure:
 
@@ -104,5 +104,67 @@ Potential Pathways:
 
 Climate Hazard > Spatial Hazard Dataset > Asset Location > Spatial Extraction > Asset-Level Hazard Exposure > Risk Screening > Sensitivity / Uncertainty Analysis > Business Materiality > Adaptation Priorities
 
+## Evidence and Claims Discipline 
 
+The project will distingiush between:
+
+1. Observed/measured data
+2. Modelled or derived indicators
+3. Proxy variables
+4. Analytical Assumptions
+5. Interpretive conclusion
+
+No result will be presented as more precise than the underlying data allows.
+
+## Evidence Hierarchy
+
+Priority will generally be given to:
+
+1. Government datasets
+2. Official scientific institutions
+3. Peer-reviewed research 
+4. International scientific/data institutions
+5. Reputable secondary datasets where necessary
+
+## Known Methodological Risks
+
+### 1. Spatial resolution 
+
+Climate data may be too coarse to represent conditions at individual assets precisely.
+
+### 2. Asset-level vulnerability
+
+Public data may not reveal detailed operational characteristics or adaptation measures.
+
+### 3. Composite scoring 
+
+Combining different indicators into a single risk score introduces methodological assumptions and therefore requires sensitivity analysis.
+
+
+## 2 Physical Climate Risk Framework
+
+This project follows the conceptual relationship:
+Hazard > Exposure > Vulnerability > Risk
+
+### Hazard
+
+The climate-related physical event or condition that may cause harm.
+For this project, the primary hazards are:
+
+1. Extreme Heat
+2. Extreme Precipitation
+
+### Exposure
+
+The presence of commercial and industrial assets in locations affected by these hazards.
+
+### Vulnerability
+
+The degree to which an exposed asset may be susceptible to operational disruption or damage.
+
+### Risk
+
+Risk is treated as a function of hazard, exposure and vulnerability.
+
+This project produces a relative physical climate-risk screening rather than a quantitative functional-loss model.
 
