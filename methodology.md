@@ -168,3 +168,69 @@ Risk is treated as a function of hazard, exposure and vulnerability.
 
 This project produces a relative physical climate-risk screening rather than a quantitative functional-loss model.
 
+## Asset Verification Protocol
+
+### Objective
+
+To convert source records into a defensible physical-asset exposure
+dataset while preserving uncertainty and source provenance.
+
+### Verification sequence
+
+#### Step 1 — Record identification
+
+Confirm that the source record identifies a commercial/industrial
+facility or activity relevant to the study.
+
+#### Step 2 — Physical-site reconciliation
+
+Determine whether multiple source records refer to the same physical
+site.
+
+#### Step 3 — Geographic assignment
+
+Assign or verify latitude and longitude using the strongest available
+location evidence.
+
+#### Step 4 — Location verification
+
+Where necessary, compare the assigned location with independent
+geographic sources.
+
+#### Step 5 — Currentness assessment
+
+Assess whether there is reasonable evidence that the facility is
+currently operational or physically present.
+
+#### Step 6 — Confidence classification
+
+Assign a location/data-confidence category to the asset.
+
+### Proposed confidence levels
+
+High:  
+Facility identity and physical site can be established with strong
+evidence; geographic location is supported by reliable coordinates or
+independent spatial verification; no major unresolved duplication or
+currentness concern is present.
+
+Medium:  
+The facility and physical site can be reasonably established, but one
+or more aspects such as coordinate precision, independent verification,
+duplication or currentness remain uncertain.
+
+Low:  
+The facility cannot be reliably linked to a physical site, or major
+uncertainties remain regarding location, identity, duplication or
+current physical presence.
+
+### Provenance rule
+
+Every derived or supplemented field must retain information about its
+source and verification method.
+
+### Exclusion principle
+
+Records that cannot be reasonably linked to a physical commercial or
+industrial site should not automatically enter the final exposure
+dataset.

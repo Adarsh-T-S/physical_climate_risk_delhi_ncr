@@ -138,3 +138,31 @@ Missing geographic information may be supplemented using OpenStreetMap, geocodin
 Provisional — subject to verification during data acquisition.
 
 
+## Day 7 — Asset Data Investigation & Verification Design
+
+### Key question
+
+Can the provisional OCMMS source be transformed into a defensible, current, asset-level exposure dataset?
+
+### Work completed
+
+- Defined the minimum asset dataset schema.
+- Inspected the available OCMMS fields and geographic information.
+- Identified potential issues involving asset identity, duplicate records, geographic precision, currentness and operational status.
+- Designed a verification protocol for converting source records into physical-site-level assets.
+- Established the need to preserve provenance and uncertainty throughout the asset dataset.
+
+### Methodological principle
+
+A source record will not automatically be treated as a verified physical asset. Asset identity, physical location, currentness and data confidence must be assessed separately.
+
+### Decision gate
+
+OCMMS remains the provisional primary source, subject to whether its records can be reconciled, geographically assigned and sufficiently
+verified for asset-level exposure screening.
+
+### Next step
+
+Begin acquisition and processing of the selected asset records and evaluate the resulting dataset against the predefined asset schema and verification protocol.
+
+
