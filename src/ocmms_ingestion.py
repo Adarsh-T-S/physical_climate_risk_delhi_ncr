@@ -48,4 +48,4 @@ print("\n Metadata missing values: ")
 print(metadata_df.isna().sum())
 
 
-print("\nINGESTION CHECKPOINT PASSED")
+print("\nINGESTION CHECKPOINT PASSED") 
