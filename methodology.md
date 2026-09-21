@@ -234,3 +234,61 @@ source and verification method.
 Records that cannot be reasonably linked to a physical commercial or
 industrial site should not automatically enter the final exposure
 dataset.
+
+
+## OCMMS Data Profiling and Integrity Assessment
+
+Initial profiling was conducted before data cleaning or spatial processing to assess the structure, completeness and potential limitations of the OCMMS dataset. 
+
+The dataset contains 1,421 records with unique serial numbers. Industry Type contains substantial categorical variation, while Category is dominated by WHITE, ORANGE and GREEN classifications. 
+
+Repeated industry names and addresses were identified, including cases where similar addresses may represent different activities or floor-level locations. 
+
+Registration dates range from 2019 to 2024 within the analysed dataset. 
+
+Three records contain notable missing or malformed fields: one missing industry name, one missing address, and one record with an incomplete-looking industry-type value and missing category. 
+
+These records will be retained during the profiling stage and assessed during subsequent data-cleaning and validation rather than being removed solely because of missing values.
+
+## Asset Selection and Deduplication Principles
+
+1. S.No. will be treated as a source-record identifier, not a physical-asset identifier.
+
+2. Matching industry names alone will not be sufficient to remove records.
+
+3. Matching addresses alone will not automatically indicate duplicates.
+
+4. Records sharing an address will be investigated for:
+
+  industry/activity
+
+  entity name
+
+  floor/unit information
+
+  registration information
+
+  other available identifiers
+
+5. Where multiple registrations correspond to the same physical location but different activities, they will not automatically be collapsed into one activity.
+
+6. Where multiple records clearly represent the same physical asset and same activity/entity, they may be consolidated at the physical-asset level while preserving the original OCMMS records.
+
+7. Records lacking sufficient evidence to associate them with a physical commercial/industrial location will be flagged for further validation rather than automatically included.
+
+8. Every derived location or consolidation decision should retain its source/provenance and confidence.
+
+
+
+## Asset–Activity Distinction
+A pilot assessment of the initial OCMMS records indicated that an OCMMS registration record should not automatically be treated as equivalent to a unique physical asset.
+
+Multiple registration records may correspond to the same or similar addresses while representing different activities, entities, or, in some cases, different floors within the same building. 
+
+Therefore, the analysis distinguishes between OCMMS registration records, activities/entities associated with those records, and physical assets/locations. 
+
+Potential duplicate records will be assessed using identifiers, industry names, addresses, and activity information rather than being removed solely on the basis of matching fields. 
+
+Where multiple activities are found to occupy the same physical asset, their common geographic climate-hazard exposure will be assessed at the asset level, while activity-specific vulnerability and potential business consequences will be differentiated where sufficient information is available. 
+
+This approach prevents both double-counting of physical assets and the inappropriate assumption that co-located activities experience identical climate-related impacts.
